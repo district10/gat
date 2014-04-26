@@ -1,7 +1,10 @@
 gat
 ===
 
-My Own Chinese Input Method, for Emacs. Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy in this repo. But will not be updated.
+
+My Own Chinese Input Method, for Emacs. Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sample) in this repo. But will not be updated.
+
+---
 
 ```
             |^\                      _________________/\_
@@ -21,11 +24,33 @@ My Own Chinese Input Method, for Emacs. Check it in my [emacs configuration: gat
                                                   \____( )-=~
 ```
 
-It will be hard and painful to learn. I have some script to trans chinese to gat code, see [here][gat-trans]. And I made some [typing tutorials][tutorials]. (I need to get used it too~)
 
-I already started it. See [Here][misc-gat]. I think this is done. I should put more time trying it.
+---
 
-Introduction: [gat intro][gat-intro]
+
+- Introduction: [gat intro][gat-intro]
+
+- It will be hard and painful to learn. 
+
+- I have some script to trans chinese to gat code, see [here][gat-trans]. e.g.
+```
+➜  scripts git:(master) ✗ ./gat-search.sh "我的就是我的，我的还是我的" 
+{我,q}{的,i}{就,ev}{是,a}{我,q}{的,i}{我,q}{的,i}{还,tcx}{是,a}{我,q}{的,i}
+```
+
+- And I made some [typing tutorials][tutorials]. (I need to get used it too~)
+
+
+
+
+
+
+
+---
+
+log: 
+ - I already started it. See [Here][misc-gat]. 
+ - I think this is done. I should put more time trying it.
 
 
 

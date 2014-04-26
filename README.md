@@ -1,7 +1,7 @@
 gat
 ===
 
-My Own Chinese Input Method, for Emacs. Check it in my [emacs configuration: gat-eim.el][gat-eim.el], there is a copy in this repo. But will not be updated.
+My Own Chinese Input Method, for Emacs. Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy in this repo. But will not be updated.
 
 ```
             |^\                      _________________/\_

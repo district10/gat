@@ -4,6 +4,9 @@ gat
 
 My Own Chinese Input Method, for Emacs. Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sample) in this repo. But will not be updated.
 
+###### 这是在 [neo-extended dvpe][neo-dvpe] 键盘布局下优化的单字输入法，优化标准：1. 按键效率； 2. 汉字频率 3. 左右手交替与均衡。如果你用别的键盘布局，可以修改我的源码生成特定键盘布局的版本。
+
+
 ---
 
 ```
@@ -61,3 +64,4 @@ log:
 [gat-intro]: https://github.com/district10/gat/intro.txt
 [gat-trans]: https://github.com/district10/dotfiles/tree/master/scripts/gat-trans.sh
 [tutorials]: https://github.com/district10/misc/tree/master/typing-zh
+[neo-dvpe]: https://github.com/district10/neo_keyboard_layout

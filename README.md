@@ -27,7 +27,9 @@ Coming Soon.
 ```
 
 It will be hard and painful to learn. 
+
 I already started it. See [Here][misc-gat].
+
 Introduction: [gat intro][gat-intro]
 
 

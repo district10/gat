@@ -33,9 +33,10 @@ My Own Chinese Input Method, for Emacs. Check it in my [emacs configuration: gat
 - It will be hard and painful to learn. 
 
 - I have some script to trans chinese to gat code, see [here][gat-trans]. e.g.
+
 ```
-➜  scripts git:(master) ✗ ./gat-search.sh "我的就是我的，我的还是我的" 
-{我,q}{的,i}{就,ev}{是,a}{我,q}{的,i}{我,q}{的,i}{还,tcx}{是,a}{我,q}{的,i}
+➜  scripts git:(master) ✗ ./gat-search.sh "你的就是我的，我的还是我的"
+{你,too}{的,i}{就,ev}{是,a}{我,q}{的,i}{我,q}{的,i}{还,tcx}{是,a}{我,q}{的,i}
 ```
 
 - And I made some [typing tutorials][tutorials]. (I need to get used it too~)

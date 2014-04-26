@@ -35,7 +35,10 @@ My Own Chinese Input Method, for Emacs. Check it in my [emacs configuration: gat
 
 - It will be hard and painful to learn. 
 
-- I have some script to trans chinese to gat code, see [here][gat-trans]. e.g.
+- I have some script to trans chinese to gat code, see [here][gat-trans].（这样才能方便的查字，和练习）
+
+
+（键盘布局是 neo，过两天弄成 qwerty 再发一遍）
 
 style 1
 ```

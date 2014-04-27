@@ -118,6 +118,7 @@ Check the `gat-eim-SAMPLE.el` in this repo first, not `gat-eim-dvp.el` or `gat-e
 键码分为五个层次，对应1个2个。。5个字母（1..5 grams)。你会看到大量的五码，而且怎么着全是 te 什么的。。。要记住，所有的 5g 字只需要记忆三个字母，因为前两个字母是右手中指（t）加左手中指（e）。同理，4g 左手中指加右手中指加两个键,等等。
 
 script 1
+
 ```
 ➜  scripts git:(master) ✗ ./gat-trans.sh example4.txt | ./dvpe2dvp.sh
 早饭时隔壁桌的男人边吃边对着前面的空椅子说话，谈笑风生，不时起身伸过勺子送去食物，喂空气，好像哑剧。
@@ -129,11 +130,23 @@ script 1
 ```
 
 script 2
+
 ```
 ➜  scripts git:(master) ✗ ./gat-trans2.sh "你的就是我的，我的还是我的" | ./dvpe2dvp.sh
 {你too}{的u}{就ev}{是a}{我q}{的u}，{我q}{的u}{还tcx}{是a}{我q}{的u}
 ```
 
+script 3
+
+```
+➜  scripts git:(master) ./gat-trans-pretty.sh example4.txt | ./dvpe2dvp.sh    
+早饭时隔壁桌的男人边吃边对着前面的空椅子说话，谈笑风生，不时起身伸过勺子送去食物，喂空气，好像哑剧。
+[5khe][5cun][2s][5mkt][5aco][5imx][u][4ud][i][5uhk][3aq][5uhk][2h][3up][3si][3hk][u][4te][5tia][3hx][3ah][4mp]，[5uhu][5hem][5tut][2c]，[x][2s][3rx][4xc][5utx][3uc][5its][3hx][3gq][3hh][5ose][3ha]，[5sip][4te][4ao]，[3xa][5hon][5hhi][4ab]。
+我示意同桌看看，同桌说，神神叨叨，估计吃药的时候忘记开灯了。
+[q][4ei][3sp][3kh][5imx][3sr][3sr]，[3kh][5imx][3ah]，[4tu][4tu][5xah][5xah]，[4wj][3sh][3aq][5usa][u][2s][5noh][5txm][4rp][3ni][5ohp][n]。
+我哈哈大笑，两人边欣赏那男人的表演边评头论足，不亦乐乎。可能太过喧闹惊动了对方，他居然放下餐具径直冲我们走来。
+[q][4yv][4yv][g][5hem]，[3nh][i][5uhk][5pca][5uru][3sk][4ud][i][u][3ao][3pv][5uhk][3ps][4ua][3kp][5ete]，[x][4jh][3pd][5ahk]。[2a][2u][5het][3uc][5rre][5heo][4mq][3ur][n][2h][3uh]，[p][3qn][3ho][4uk][3ih][5aru][4hp][4ij][4so][3oq][q][y][5use][2r]。
+```
 
 
 - And I made some [typing tutorials][tutorials]. (I need to get used it too~)

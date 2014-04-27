@@ -4,7 +4,7 @@ gat
 
 My Own Chinese Input Method, for Emacs.
 
-Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sample) in this repo. But will not be updated.
+Check my emacs configuration: [gat-eim.el][gat-eim], there is a copy(sample) in this repo.
 
 
 
@@ -62,6 +62,7 @@ Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sampl
 - 因为没有找到别人的例子，我用脚本生成了按键对应汉字的 key-value 码表，开始了自己的单字输入历程。
 
 
+
 ---
 
 ### 一点注意
@@ -80,11 +81,31 @@ Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sampl
     - 2. 人工修改也有盲目性，你觉得 z 这个字母难打，想把它放 home row 上，这样当然更爽。但是显然不科学，要多方权衡，人工改，太不理性。
     - 3. 整体的设计上得当，就差不多达到了极优的效果。局部的细节可以适当忍受。
 
+
+---
+
+### 如何做？
+
+- 下载我的gat-eim.el
+
+- 在你的 Emacs 配置文件里加上 gat-eim.el, 为了方便可以加个函数切换输入法状态。还可以绑定快捷键，但这就三个字母的函数手敲就行，我就没绑定。
+
+```
+(defun gat ()
+  "toggle between Gat and no input method"
+  (interactive)
+    (if (string= current-input-method "gat-input-method")
+	(set-input-method nil)
+      (set-input-method "gat-input-method")))
+```
+
+
+
 ---
 
 ### 一些杂项
 
-- Introduction: [gat intro][gat-intro]
+- 之前写的 Introduction: [gat intro][gat-intro]，这里有更多的编码原则的展示。
 
 - It will be hard and painful to learn.
 
@@ -96,7 +117,7 @@ Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sampl
 
 键码分为五个层次，对应1个2个。。5个字母（1..5 grams)。你会看到大量的五码，而且怎么着全是 te 什么的。。。要记住，所有的 5g 字只需要记忆三个字母，因为前两个字母是右手中指（t）加左手中指（e）。同理，4g 左手中指加右手中指加两个键,等等。
 
-style 1
+script 1
 ```
 ➜  scripts git:(master) ✗ ./gat-trans.sh example4.txt | ./dvpe2dvp.sh
 早饭时隔壁桌的男人边吃边对着前面的空椅子说话，谈笑风生，不时起身伸过勺子送去食物，喂空气，好像哑剧。
@@ -107,7 +128,7 @@ style 1
 [q][etyv][etyv][g][tehem]，[tnh][i][teuhk][tepca][teuru][tsk][etud][i][u][tao][tpv][teuhk][tps][etua][tkp][teete]，[x][etjh][tpd][teahk]。[ea][eu][tehet][tuc][terre][teheo][etmq][tur][n][eh][tuh]，[p][tqn][tho][etuk][tih][tearu][ethp][etij][etso][toq][q][y][teuse][er]。
 ```
 
-style 2
+script 2
 ```
 ➜  scripts git:(master) ✗ ./gat-trans2.sh "你的就是我的，我的还是我的" | ./dvpe2dvp.sh
 {你too}{的u}{就ev}{是a}{我q}{的u}，{我q}{的u}{还tcx}{是a}{我q}{的u}
@@ -115,17 +136,18 @@ style 2
 
 
 
-
-
-
-
-
 - And I made some [typing tutorials][tutorials]. (I need to get used it too~)
-今天下午对着自己的简易简易教程敲了一段时间，虽然现在还不能用 gat 敲出一行字，但是可以感觉到它的节奏的韵律，和 Dvorak 一样的左右交替。
+
+- 今天下午对着自己的简易简易教程敲了一段时间，虽然现在还不能用 gat 敲出一行字，但是可以感觉到它的节奏和韵律，和 Dvorak 一样的左右交替。
+
+
+
 ---
 
 log:
+ 
  - I already started it. See [Here][misc-gat].
+ 
  - I think this is done. I should put more time trying it.
 
 

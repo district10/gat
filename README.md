@@ -117,9 +117,7 @@ style 2
 
 
 - And I made some [typing tutorials][tutorials]. (I need to get used it too~)
-
-
-
+今天下午对着自己的简易简易教程敲了一段时间，虽然现在还不能用 gat 敲出一行字，但是可以感觉到它的节奏的韵律，和 Dvorak 一样的左右交替。
 ---
 
 log: 

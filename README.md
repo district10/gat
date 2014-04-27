@@ -86,28 +86,31 @@ Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sampl
 
 - I have some scripts to translate chinese to gat code, see [here][gat-trans].（这样才能方便的查字，和练习）
 
-（键盘布局是 neo，过两天弄成 qwerty 再发一遍）
+我的输入法是在 dvpe 上弄得，但是为了让广大的 dvp 用户感受这些按键组合，我转换了一下，具体看下面代码。完整见上方的脚本链接。
 
 style 1
 ```
-➜  scripts git:(master) ✗ ./gat-search.sh "你的就是我的，我的还是我的"
-{你,too}{的,i}{就,ev}{是,a}{我,q}{的,i}{我,q}{的,i}{还,tcx}{是,a}{我,q}{的,i}
+➜  scripts git:(master) ✗ ./gat-trans.sh example4.txt | ./dvpe2dvp.sh
+早饭时隔壁桌的男人边吃边对着前面的空椅子说话，谈笑风生，不时起身伸过勺子送去食物，喂空气，好像哑剧。
+[tekhe][tecun][es][temkt][teaco][teimx][u][etud][i][teuhk][taq][teuhk][eh][tup][tsi][thk][u][ette][tetia][thx][tah][etmp]，[teuhu][tehem][tetut][ec]，[x][es][trx][etxc][teutx][tuc][teits][thx][tgq][thh][teose][tha]，[tesip][ette][etao]，[txa][tehon][tehhi][etab]。
+我示意同桌看看，同桌说，神神叨叨，估计吃药的时候忘记开灯了。
+[q][etei][tsp][tkh][teimx][tsr][tsr]，[tkh][teimx][tah]，[ettu][ettu][texah][texah]，[etwj][tsh][taq][teusa][u][es][tenoh][tetxm][etrp][tni][teohp][n]。
+我哈哈大笑，两人边欣赏那男人的表演边评头论足，不亦乐乎。可能太过喧闹惊动了对方，他居然放下餐具径直冲我们走来。
+[q][etyv][etyv][g][tehem]，[tnh][i][teuhk][tepca][teuru][tsk][etud][i][u][tao][tpv][teuhk][tps][etua][tkp][teete]，[x][etjh][tpd][teahk]。[ea][eu][tehet][tuc][terre][teheo][etmq][tur][n][eh][tuh]，[p][tqn][tho][etuk][tih][tearu][ethp][etij][etso][toq][q][y][teuse][er]。
 ```
 
 style 2
 ```
-➜  scripts git:(master) ✗ ./gat-trans.sh example2.txt
-我的勇气，够吗？锤子问学姐。
-[q][i][tesum][etao]，[tesht][etxv]？[terlu][trx][tiu][ep][teknu]。
-学姐哭得一塌糊涂。我们在底下哭得一塌糊涂。
-[ep][teknu][tenni][tam][o][tesax][teusa][texlx]。[q][y][h][teono][tur][tenni][tam][o][tesax][teusa][texlx]。
-大宽哭得最响。我骂他神经病，大宽哭着说操，老子二十六了，还没谈过恋爱。
-[g][etkj][tenni][tam][tmu][tenen]。[q][teert][p][etti][ej][etui]，[g][etkj][tenni][tik][tar][etvu]，[teser][trx][tuo][tlo][tesin][n]，[tcx][tix][teiri][tic][teeon][teonh]。
-然后我想起来，我也没谈过恋爱。
-[tro][tim][q][trc][tlx][el]，[q][tos][tix][teiri][tic][teeon][teonh]。
-我们继续抱头痛哭。
-[q][y][teari][tesit][telxn][etia][twk][tenni]。
+➜  scripts git:(master) ✗ ./gat-trans2.sh "你的就是我的，我的还是我的" | ./dvpe2dvp.sh
+{你too}{的u}{就ev}{是a}{我q}{的u}，{我q}{的u}{还tcx}{是a}{我q}{的u}
 ```
+
+
+
+
+
+
+
 
 - And I made some [typing tutorials][tutorials]. (I need to get used it too~)
 
@@ -123,6 +126,6 @@ log:
 [gat-eim]: https://github.com/district10/dotfiles/tree/master/emacs/dot_emacs.d/gat-eim.el
 [misc-gat]: https://github.com/district10/misc/tree/master/gen-gat
 [gat-intro]: https://github.com/district10/gat/intro.txt
-[gat-trans]: https://github.com/district10/dotfiles/tree/master/scripts/gat-trans.sh
+[gat-trans]: https://github.com/district10/dotfiles/tree/master/scripts
 [tutorials]: https://github.com/district10/misc/tree/master/typing-zh
 [neo-dvpe]: https://github.com/district10/neo_keyboard_layout

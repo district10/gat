@@ -4,7 +4,7 @@ gat
 
 My Own Chinese Input Method, for Emacs.
 
-Check my emacs configuration: [gat-eim.el][gat-eim], there is a copy(sample) in this repo.
+Check the `gat-eim-SAMPLE.el` in this repo first, not `gat-eim-dvp.el` or `gat-eim-dvorak.el`, they are unsecessarily huge file! Your brower will freezzzzzee.
 
 
 

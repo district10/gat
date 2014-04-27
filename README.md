@@ -88,6 +88,10 @@ Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sampl
 
 我的输入法是在 dvpe 上弄得，但是为了让广大的 dvp 用户感受这些按键组合，我转换了一下，具体看下面代码。完整见上方的脚本链接。
 
+你可以很明显的看到左右手交替的节奏，以及大量的 home row 按键。
+
+键码分为五个层次，对应1个2个。。5个字母（1..5 grams)。别看五个码。要记住，所有的 5g 字只需要记忆三个字母，因为前两个字母是右手食指加左手食指。同理，4g 左手食指加右手食指加两个键,等等。
+
 style 1
 ```
 ➜  scripts git:(master) ✗ ./gat-trans.sh example4.txt | ./dvpe2dvp.sh

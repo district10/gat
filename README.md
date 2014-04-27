@@ -6,7 +6,7 @@ My Own Chinese Input Method, for Emacs.
 
 Check the `gat-eim-SAMPLE.el` in this repo first, not `gat-eim-dvp.el` or `gat-eim-dvorak.el`, they are unsecessarily huge file! Your brower will freezzzzzee.
 
-
+## See [Here for detail][misc-gat].
 
 ---
 

@@ -2,7 +2,7 @@ gat
 ===
 
 
-My Own Chinese Input Method, for Emacs. 
+My Own Chinese Input Method, for Emacs.
 
 Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sample) in this repo. But will not be updated.
 
@@ -32,15 +32,15 @@ Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sampl
 ---
 
 ### 起因
-	
-- 我打中文很不顺畅，主要原因是： 
-	 
-	 - 1. **选词太累太烦**； 
-	 - 2. 拼音捉急（我分不太清 ‘in’ 和 ‘ing’）； 
+
+- 我打中文很不顺畅，主要原因是：
+
+	 - 1. **选词太累太烦**；
+	 - 2. 拼音捉急（我分不太清 ‘in’ 和 ‘ing’）；
 	 - 3. **拼音重码太多，效率太低**，我也不会五笔。
-	 
-	 
----	 
+
+
+---
 
 ### 经过
 
@@ -69,10 +69,10 @@ Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sampl
 - 这是在 [neo-extended dvpe][neo-dvpe] 键盘布局下优化的单字输入法。
 
 - **优化标准**：
-    - 1. 按键效率； 
-    - 2. 汉字频率； 
+    - 1. 按键效率；
+    - 2. 汉字频率；
     - 3. 左右手交替与均衡。
-    
+
 - 如果你用别的键盘布局，可以修改我的源码生成特定键盘布局的版本。（我改也很容易，但是考虑到用 Qwerty 的人几乎没有概率会鸟这个输入法，我就不累自己了。Dvarak 用户知道了我的Neo-extended Dvpe， 也能看出来它好在哪里。）
 
 - 外，这个输入法的码表是我用脚本生成的。
@@ -86,7 +86,7 @@ Check it in my [emacs configuration: gat-eim.el][gat-eim], there is a copy(sampl
 
 - Introduction: [gat intro][gat-intro]
 
-- It will be hard and painful to learn. 
+- It will be hard and painful to learn.
 
 - I have some scripts to translate chinese to gat code, see [here][gat-trans].（这样才能方便的查字，和练习）
 
@@ -124,8 +124,8 @@ style 2
 今天下午对着自己的简易简易教程敲了一段时间，虽然现在还不能用 gat 敲出一行字，但是可以感觉到它的节奏的韵律，和 Dvorak 一样的左右交替。
 ---
 
-log: 
- - I already started it. See [Here][misc-gat]. 
+log:
+ - I already started it. See [Here][misc-gat].
  - I think this is done. I should put more time trying it.
 
 

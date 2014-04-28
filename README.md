@@ -96,7 +96,7 @@ Check the `gat-eim-SAMPLE.el` in this repo first, not `gat-eim-dvp.el` or `gat-e
   (interactive)
     (if (string= current-input-method "gat-input-method")
 	(set-input-method nil)
-      (set-input-method "gat-input-method")))
+        (set-input-method "gat-input-method")))
 ```
 
 

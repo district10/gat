@@ -166,7 +166,7 @@ log:
 
 [gat-eim]: https://github.com/district10/dotfiles/tree/master/emacs/dot_emacs.d/gat-eim.el
 [misc-gat]: https://github.com/district10/misc/tree/master/gen-gat
-[gat-intro]: https://github.com/district10/gat/intro.txt
+[gat-intro]: https://github.com/district10/misc/blob/master/gen-gat/README.txt
 [gat-trans]: https://github.com/district10/dotfiles/tree/master/scripts
 [tutorials]: https://github.com/district10/misc/tree/master/typing-zh
 [neo-dvpe]: https://github.com/district10/neo_keyboard_layout

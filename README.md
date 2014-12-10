@@ -90,7 +90,7 @@ Check the `gat-eim-SAMPLE.el` in this repo first, not `gat-eim-dvp.el` or `gat-e
 
 - 在你的 Emacs 配置文件里加上 gat-eim.el, 为了方便可以加个函数切换输入法状态。还可以绑定快捷键，但这就三个字母的函数手敲就行，我就没绑定。
 
-```
+``` lisp
 (defun gat ()
   "toggle between Gat and no input method"
   (interactive)

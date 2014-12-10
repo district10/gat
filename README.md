@@ -119,7 +119,7 @@ Check the `gat-eim-SAMPLE.el` in this repo first, not `gat-eim-dvp.el` or `gat-e
 
 script 1
 
-```
+``` bash
 ➜  scripts git:(master) ✗ ./gat-trans.sh example4.txt | ./dvpe2dvp.sh
 早饭时隔壁桌的男人边吃边对着前面的空椅子说话，谈笑风生，不时起身伸过勺子送去食物，喂空气，好像哑剧。
 [tekhe][tecun][es][temkt][teaco][teimx][u][etud][i][teuhk][taq][teuhk][eh][tup][tsi][thk][u][ette][tetia][thx][tah][etmp]，[teuhu][tehem][tetut][ec]，[x][es][trx][etxc][teutx][tuc][teits][thx][tgq][thh][teose][tha]，[tesip][ette][etao]，[txa][tehon][tehhi][etab]。
@@ -131,14 +131,14 @@ script 1
 
 script 2
 
-```
+``` bash
 ➜  scripts git:(master) ✗ ./gat-trans2.sh "你的就是我的，我的还是我的" | ./dvpe2dvp.sh
 {你too}{的u}{就ev}{是a}{我q}{的u}，{我q}{的u}{还tcx}{是a}{我q}{的u}
 ```
 
 script 3
 
-```
+``` bash
 ➜  scripts git:(master) ./gat-trans-pretty.sh example4.txt | ./dvpe2dvp.sh    
 早饭时隔壁桌的男人边吃边对着前面的空椅子说话，谈笑风生，不时起身伸过勺子送去食物，喂空气，好像哑剧。
 [5khe][5cun][2s][5mkt][5aco][5imx][u][4ud][i][5uhk][3aq][5uhk][2h][3up][3si][3hk][u][4te][5tia][3hx][3ah][4mp]，[5uhu][5hem][5tut][2c]，[x][2s][3rx][4xc][5utx][3uc][5its][3hx][3gq][3hh][5ose][3ha]，[5sip][4te][4ao]，[3xa][5hon][5hhi][4ab]。

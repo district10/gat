@@ -2,7 +2,9 @@ gat
 ===
 
 
-TODO: 参考 [Nik David Bamert ](http://ndb.io/) 的 [septimaIME](http://ndb.io/#!projects/septimaIME) 做一个 JavaScript 的实现。
+TODO: 参考 [Nik David Bamert ](http://ndb.io/) 的 [septimaIME](http://ndb.io/#!projects/septimaIME) 做一个 JavaScript 的实现。我把 Demo 移过来了。http://gnat.qiniudn.com/hangulIME/demo.html
+
+Nik 的网站上有比较详细且高大上的说明。简直了！
 
 
 My Own Chinese Input Method, for Emacs.

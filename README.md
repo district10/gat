@@ -2,6 +2,9 @@ gat
 ===
 
 
+TODO: 参考 [Nik David Bamert ](http://ndb.io/) 的 [septimaIME](http://ndb.io/#!projects/septimaIME) 做一个 JavaScript 的实现。
+
+
 My Own Chinese Input Method, for Emacs.
 
 Check the `gat-eim-SAMPLE.el` in this repo first, not `gat-eim-dvp.el` or `gat-eim-dvorak.el`, they are unsecessarily huge file! Your brower will freezzzzzee.

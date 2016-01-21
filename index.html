@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gat Online</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+ 	<style>
+ 		body,html{
+ 			height:100%;
+ 			width:100%;
+ 			margin: 5px;
+ 			padding: 5px;
+            font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif; // from TypeIsBeautiful.com
+ 		}
+ 		textarea{
+ 			height:20%;
+ 			width:100%;
+ 			font-size:20pt;
+ 		}
+ 		#info {
+ 			height:50%;
+ 			width:100%;
+ 			font-size:16pt;
+ 		}
+	</style>
+    <script type="text/javascript" src="gat.js"> </script>
+	<script>
+		window.onload = function(e){
+			gat.init("textarea");
+		};
+	</script>
+  </head>
+  <body >
+  <h1>Gat 中文单字输入法</h1>
+  <p>见 <a href="https://github.com/district10/gat">district10/gat: Gat, Chinese Input Method, works in Emacs</a></p>
+    <form oninput="dekey.value=gat.key2value(key.value)">
+        key2value
+        <input type="text" id="key" placeholder="在此输入英文" value="q">
+        <output name="dekey" for="key">我</output>
+    </form>
+    <form oninput="devalue.value=gat.value2key(value.value)">
+        value2key
+        <input type="text" id="value" placeholder="在此输入中文" value="你">
+        <output name="devalue" for="value">[too]</output>
+    </form>
+    <form oninput="detutor.value=gat.tutorial(tutor.value)">
+        tutorial
+        <input type="text" id="tutor" placeholder="在此输入中文" value="我不相信天是蓝的">
+        <output name="detutor" for="tutor">[q,我] [x,不] [tck,相] [tss,信] [thi,天] [a,是] [tecus,蓝] [i,的]</output>
+    </form>
+    <textarea id="textarea"></textarea>
+<pre class="plain"><code>[etmh,北] [r,国] [tetit,风] [tetir,光]
+[tkd,千] [tmx,里] [tesem,冰] [etag,封]
+[etmu,万] [tmx,里] [tesxc,雪] [teoss,飘]
+[tetas,望] [tlk,长] [terin,城] [tai,内] [tco,外]
+[tesho,惟] [tda,余] [temsx,莽] [temsx,莽]
+[g,大] [tuf,河] [f,上] [tur,下]
+[tuy,顿] [etxu,失] [tetlu,滔] [tetlu,滔]
+[etrc,山] [terkc,舞] [tqw,银] [texsk,蛇]
+[tmn,原] [tennn,驰] [temik,蜡] [ettx,象]
+[etfk,欲] [tum,与] [thi,天] [txl,公] [teish,试] [tlr,比] [tmk,高]
+[etou,须] [tensa,晴] [tkl,日]
+[tsl,看] [tdh,红] [teren,装] [teeti,素] [temau,裹]
+[tas,分] [tco,外] [temno,妖] [?,娆]
+
+[tyc,江] [etrc,山] [tac,如] [tma,此] [tom,多] [?,娇]
+[etrl,引] [tci,无] [tkk,数] [etox,英] [etja,雄] [thj,竞] [etjq,折] [texne,腰]
+[texmo,惜] [teunk,秦] [etfx,皇] [tqa,汉] [teara,武]
+[tkg,略] [tjv,输] [toi,文] [tetar,采]
+[teskr,唐] [trj,宗] [etyo,宋] [etwi,祖]
+[temxc,稍] [teica,逊] [tetit,风] [tenrt,骚]
+[o,一] [tii,代] [thi,天] [tettt,骄]
+[ey,成] [etgk,吉] [etco,思] [teolx,汗]
+[tax,只] [etni,识] [tenoa,弯] [tenuo,弓] [tug,射] [g,大] [textk,雕]
+[tenih,俱] [teran,往] [tessr,矣]
+[tkk,数] [tetit,风] [etts,流] [u,人] [tra,物]
+[tcx,还] [tsl,看] [etxi,今] [tgk,朝]</code></pre>
+  </body>
+</html>

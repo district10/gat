@@ -6,6 +6,8 @@ TODO: 参考 [Nik David Bamert ](http://ndb.io/) 的 [septimaIME](http://ndb.io/
 
 我的 DEMO：<http://district10.github.io/gat/>
 
+TODO: 参考 [JS 注音：線上注音輸入](http://timdream.org/jszhuyin/) 弄一个带 GUI 的。最好能在一定模式下用拼音输入。
+
 ---
 
 My Own Chinese Input Method, for Emacs.

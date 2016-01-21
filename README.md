@@ -4,8 +4,9 @@ gat
 
 TODO: 参考 [Nik David Bamert ](http://ndb.io/) 的 [septimaIME](http://ndb.io/#!projects/septimaIME) 做一个 JavaScript 的实现。我把 Demo 移过来了。http://gnat.qiniudn.com/hangulIME/demo.html
 
-Nik 的网站上有比较详细且高大上的说明。简直了！
+我的 DEMO：<http://district10.github.io/gat/>
 
+---
 
 My Own Chinese Input Method, for Emacs.
 
@@ -144,7 +145,7 @@ script 2
 script 3
 
 ``` bash
-➜  scripts git:(master) ./gat-trans-pretty.sh example4.txt | ./dvpe2dvp.sh    
+➜  scripts git:(master) ./gat-trans-pretty.sh example4.txt | ./dvpe2dvp.sh
 早饭时隔壁桌的男人边吃边对着前面的空椅子说话，谈笑风生，不时起身伸过勺子送去食物，喂空气，好像哑剧。
 [5khe][5cun][2s][5mkt][5aco][5imx][u][4ud][i][5uhk][3aq][5uhk][2h][3up][3si][3hk][u][4te][5tia][3hx][3ah][4mp]，[5uhu][5hem][5tut][2c]，[x][2s][3rx][4xc][5utx][3uc][5its][3hx][3gq][3hh][5ose][3ha]，[5sip][4te][4ao]，[3xa][5hon][5hhi][4ab]。
 我示意同桌看看，同桌说，神神叨叨，估计吃药的时候忘记开灯了。
@@ -163,9 +164,9 @@ script 3
 ---
 
 log:
- 
+
  - I already started it. See [Here][misc-gat].
- 
+
  - I think this is done. I should put more time trying it.
 
 
